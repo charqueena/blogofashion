@@ -1,0 +1,139 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin-bottom:40px;
+}
+
+.container {
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  /*centers everything in container*/
+  overflow:hidden;
+  /*Add overflow:hidden property to recognize floated childeren*/
+
+}
+
+.header {
+  text-align: inline;
+  color:darkred;
+}
+
+small {
+  font-family: helvetica;
+  font-size: 20px;
+  color:lightgrey;
+}
+
+.col-2 {
+    width: 16.66666666%;
+    border:#000 1px solid;
+    float:left;
+    box-sizing:border-box;
+    background-color: black;
+    border: #FFF 1px solid;
+    color: #FFF;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 12px;
+  }
+
+.col-8 {
+  width: 66.666666%;
+  float:left;
+  box-sizing:border-box;
+}
+
+
+.col-4 {
+  width: 33.333333%;
+  float:left;
+  box-sizing:border-box;
+  margin-top: 40px;
+  padding: 15px;
+
+}
+
+img {
+  width: 100%
+}
+
+.continues {
+  text-align: right;
+  color:darkred;
+}
+
+.more {
+
+  font-family: helvetica;
+  font-size: 15px;
+  color:darkred;
+  text-align:right;
+}
+
+.about_us{
+
+font-family: helvetica;
+font-size: 15px;
+color:darkgray;
+
+}
+
+.blog_1 > p::first-letter { /* Use :first-letter if support for IE 8 or earlier is needed */
+  color: darkgrey;
+  font-size: 400%;
+  float: left;
+}
+
+.blog_2 > p::first-letter { /* Use :first-letter if support for IE 8 or earlier is needed */
+  color: darkgrey;
+  font-size: 400%;
+  float: left;
+}
+
+.ad {
+  background-color: lightgrey;
+  color: darkgrey;
+  font-size: 500%;
+}
+
+.part_one {
+  height: 200px;
+  margin-bottom: 20px
+}
+
+.part_two {
+  height: 200px;
+  background-color: lightgrey;
+
+}
+
+.popular_posts {
+  text-decoration: none;
+  color: darkred;
+}
+
+
+.large-border {
+  border-top:#CCC 1px solid;
+  margin:20px 0 20px 0;
+
+}
+
+.grey-border {
+  border-top:#CCC 1px solid;
+  margin:20px 0 20px 0;
+
+}
+
+.bottom-nav li {
+      display: inline;
+      border-right:#CCC 1px solid;
+      padding:0 5px 0 7px;
+
+  }
+
+  #last-text {
+    color: #CCC;
+    font-family: helvetica;
+    font-size: 11px;
+  }
